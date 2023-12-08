@@ -15,6 +15,15 @@ body{
     background-color: var(--black);
 }
 
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ------- NAV STYLING -------- */
+
 .logo-fname{
     color: var(--hover);
 }
@@ -34,15 +43,9 @@ body{
 
 .nav-menu-list{
     list-style: none;
+    padding-top: 20px;
 }
 
-.container{
-    padding-top: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .link{
     text-decoration: none;
@@ -71,7 +74,6 @@ body{
     width: 100%;
 }
 
-/* ------ NAVAIGATION STYLING --------- */
 .nav-menu{
     display: flex;
     align-items: center;
@@ -88,6 +90,11 @@ body{
     margin-right: 50px;
 }
 
+
+/* ----- END OF NAV STYLING ------- */
+
+/* ----- BANNER STYLING ----- */
+
 .title-text{
     color: var(--white);
     color: var(--white);
@@ -95,7 +102,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.32px;text-align: center;
     
 }
 
@@ -108,6 +115,7 @@ body{
     letter-spacing: 0.56;
     padding-bottom: 5px;
     padding-top: 5px;
+    text-align: center;  
 }
 
 .title-name{
@@ -120,10 +128,38 @@ body{
     padding-bottom: 5px;
     padding-top: 5px;
 }
+
 .banner-item{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.banner-btn{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.download-btn{
+    padding: 5px;
+    background: var(--black);
+    color: var(--hover);
+    border: 1px solid var(--white);
+    border-radius: 10px;
+    font-family: 'Opens Sans',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    cursor: pointer;
+}
+
+.download-btn:hover{
+    background: var(--hover);
+    color: var(--white);
+}
+
+
+
 
     
